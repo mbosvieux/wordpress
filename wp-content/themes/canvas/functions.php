@@ -8,6 +8,7 @@
 $functions_path = get_template_directory() . '/functions/';
 $includes_path = get_template_directory() . '/includes/';
 
+
 // Don't load alt stylesheet from WooFramework
 if ( ! function_exists( 'woo_output_alt_stylesheet' ) ) {
 	function woo_output_alt_stylesheet () {}
